@@ -14,8 +14,8 @@ function Navbar(){
         setIsShown(prev => !prev)
     }
     return(
-      <div className="flex">
-      <div className="w-screen h-14 sticky top-0 flex flex-row items-center justify-between z-10">
+      <div className="flex ">
+      <div className="w-screen h-14 top-0 sticky flex flex-row items-center justify-between z-10">
         <div className="flex flex-row items-center">
         <Image className={`w-5 sm:w-8 md:w-9  z-10 mx-4 relative cursor-pointer hover:scale-125`} onClick={handleClick} src={hamburger}></Image>
         <h1 className="text-md sm:text-xl md:text-2xl   text-slate-50">🎦NewTube</h1>
